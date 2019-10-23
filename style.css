@@ -1,0 +1,76 @@
+body {
+    background: #add6e9;
+}
+
+.main {
+    margin: 20px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}  
+
+.title {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.tweet-container {
+    margin: 10px 0;
+    border: 1px solid;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+}
+
+.tweet-container > .-content {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px -8px #000;
+}
+
+.tweet-container > .-user {
+    padding-left: 20px;
+}
+
+.tweet-container > .-user > .-picture {
+    border-radius: 50%;
+    width: 35px;
+}
+
+.tweet-container > .-user > .-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.form-container {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.form-container > form > input[type="text"] {
+    width: 50%;
+    border-radius: 12px;
+    height: 35px;
+    border-style: ridge;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+
+.-user {
+    display: flex;
+    align-items: center;
+}
+
+.-picture {
+    border: 1px solid #fff;
+}
+
+.-remove {
+    margin-left: 15px;
+    color: red;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bolder;
+}

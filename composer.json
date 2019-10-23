@@ -1,0 +1,14 @@
+{
+    "name": "jose/twitterapp",
+    "description": "twitter api test",
+    "type": "projetct",
+    "authors": [
+        {
+            "name": "JoseP-UR",
+            "email": "urivesrosa@gmail.com"
+        }
+    ],
+    "require": {
+        "abraham/twitteroauth": "^1.0"
+    }
+}
